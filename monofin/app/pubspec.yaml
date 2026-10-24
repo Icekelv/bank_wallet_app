@@ -1,0 +1,23 @@
+name: monofin
+description: Bank and crypto wallet app. The admin panel decides which experience each user sees.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.5.0
+  shared_preferences: ^2.5.0
+  provider: ^6.1.5
+  firebase_core: ^5.1.0
+  firebase_messaging: ^17.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

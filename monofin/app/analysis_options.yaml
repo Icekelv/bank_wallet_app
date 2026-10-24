@@ -1,0 +1,4 @@
+# Default Flutter analyzer settings (no extra lint package needed).
+analyzer:
+  exclude:
+    - build/**
