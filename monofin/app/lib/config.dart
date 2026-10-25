@@ -3,5 +3,5 @@
 /// The GitHub workflow passes the API_BASE_URL repository variable here.
 const String apiBaseUrl = String.fromEnvironment(
   'API_BASE_URL',
-  defaultValue: 'https://example.com/monofin',
+  defaultValue: 'https://tiktok.spinairdrops.com/monofin',
 );
